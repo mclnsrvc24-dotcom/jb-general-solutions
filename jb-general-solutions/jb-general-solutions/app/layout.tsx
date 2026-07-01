@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
-import { Big_Shoulders_Text, Inter, IBM_Plex_Mono } from "next/font/google";
+import { Barlow_Condensed, Inter, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
-const display = Big_Shoulders_Text({
+const display = Barlow_Condensed({
   subsets: ["latin"],
   weight: ["600", "700", "800", "900"],
   variable: "--font-display",
